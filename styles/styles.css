@@ -10,7 +10,11 @@ nav a {
 }
 
 h1 {
-    color: darkblue;
+    color: burlywood;
+}
+
+main {
+    max-width: 0px;
 }
 
 main img {
@@ -41,7 +45,7 @@ aside img {
 }
 
 footer {
-    margin: 3em;
-    border: 0.5em solid #333;
+    margin-top: 3em;
+    border-top: 0.5em solid #333;
     text-align: center;
 }
