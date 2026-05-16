@@ -1,0 +1,47 @@
+nav {
+    background-color: darkblue;
+    padding: 10px;
+}
+
+nav {
+    color: white;
+    display: block;
+    padding: 20px;
+}
+
+h1 {
+    color: darkblue;
+}
+
+main img {
+    width: 150 px;
+    height: auto;
+    border: 1px solid black;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+}
+
+p {
+    padding: 0px;
+}
+
+aside {
+    width: 22rem;
+    margin: 1rem;
+    border: 1rem solid rgb(0, 0, 0 /0.2);
+    padding: 1rem;
+    background-color: #eed;
+    color: #498;
+    text-align: center;
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+footer {
+    margin: 3rem;
+    border: 0.5rem solid #333;
+    text-align: center;
+}
