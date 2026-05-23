@@ -31,16 +31,18 @@ h1 {
 
 main {
     max-width: 640px;
+    margin: auto;
 }
 
 main img {
-    width: 150 px;
+    width: 150px;
     height: auto;
     border: 1px solid steelblue;
     padding: 2px;
     box-shadow: 0 0 30px gray;
     float: right;
     margin: 0 0 1rem 1rem;
+    margin: auto;
 }
 
 p {
@@ -50,22 +52,24 @@ p {
 aside {
     width: 22em;
     margin: 1em;
-    border: 1em solid rgb(0, 0, 0 /0.2);
+    border: 1px solid rgb(0 0 0 /20%);
     padding: 1em;
     background-color: #eed;
-    color: #498;
+    color: rgb(45, 79, 127);
     text-align: center;
+    /*    position: relative;  */
 }
 
 aside img {
-    width: 200px;
+    width: 300px;
     height: auto;
+
 }
 
 aside h2 {
     position: absolute;
-    top: 67px;
-    left: 150px;
+    top: 520px;
+    left: 600px;
 }
 
 footer {
