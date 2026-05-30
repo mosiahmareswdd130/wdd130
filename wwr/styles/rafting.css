@@ -64,20 +64,24 @@ nav a {
 
 footer {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
 }
 
-.social ul {
+.socialmedia ul {
     display: flex;
     list-style: none;
     gap: 1rem;
 }
 
-.social img {
+.socialmedia a {
+    text-decoration: none;
+}
+
+.socialmedia img {
     width: 32px;
 }
 
