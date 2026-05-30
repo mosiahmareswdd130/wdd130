@@ -12,7 +12,7 @@ nav ul {
     display: flex;
     flex-wrap: wrap;
     max-width: 900px;
-    margin: 0 auto;
+    margin: 200 100 50 75;
     justify-content: space-around;
     align-items: center;
 }
@@ -25,12 +25,19 @@ nav a {
     text-decoration: none;
 }
 
+nav li {
+    align-items: start;
+    flex-direction: column-reverse;
+    justify-content: left;
+}
+
 p {
     margin: 1rem;
     border: 1px solid rgb(0 0 0 / 10%);
     padding: 1rem;
     background-color: #bed;
     max-width: 400px;
+    align-items: center;
 }
 
 #devtools-btn {

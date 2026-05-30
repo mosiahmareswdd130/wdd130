@@ -17,7 +17,18 @@ body {
     color: var(--accent1-color);
 }
 
-header,
+header {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    align-items: center;
+    padding: 20px;
+}
+
+header img {
+    width: 120px;
+    height: auto;
+}
+
 main,
 footer {
     max-width: 840px;
@@ -31,17 +42,24 @@ h3 {
     color: var(--primary-color);
 }
 
-nav,
+/* nav,
 p,
 section,
 article {
     margin: 16px;
     padding: 8px;
-}
+} */
 
 nav {
     background-color: var(--primary-color);
     padding: 10px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 20px;
 }
 
 nav a {
@@ -57,22 +75,21 @@ footer {
     text-align: center;
 }
 
-.socialmedia a {
+.social a {
     text-decoration: none;
 }
 
-.socialmedia img {
+.social img {
     width: 40px;
     height: auto;
     margin: 10px;
 }
 
 .hero {
-    position: relative;
-    margin: 0 auto;
+    background-image: url(/wwr/images/sk_background.png);
 }
 
-.hero img {
+.hero > img {
     display: block;
     width: 100%;
     height: auto;
@@ -92,7 +109,7 @@ footer {
 
 .hero article {
     position: absolute;
-    top: 140px;
+    bottom: 30px;
     left: 40px;
     right: 40px;
     background-color: rgba(255, 255, 255, 0.9);
@@ -122,4 +139,11 @@ footer {
     border: 1px solid rgba(0, 0, 0, .1);
     padding: 1rem;
     margin-top: 20px;
+}
+
+section {
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 25px;
 }
