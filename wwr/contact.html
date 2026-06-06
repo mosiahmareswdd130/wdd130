@@ -40,7 +40,9 @@
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2072.0373706099213!2d6.887065442837534!3d50.94179963781844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47bf244d31af3f89%3A0x7e1ee31c20621f27!2sSK%20Gaming!5e1!3m2!1sen!2smx!4v1780777116949!5m2!1sen!2smx"
                   width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  referrerpolicy="no-referrer-when-downgrade">
+
+                </iframe>
             </div>
         </section>
 
@@ -55,26 +57,26 @@
                 <legend>Message Purpose</legend>
 
                 <label>
-                    <input type="radio" name="purpose">
+                    <input type="radio" id="general" name="purpose" value="general">
                     General Inquiry
                 </label>
 
                 <label>
-                    <input type="radio" name="purpose">
+                    <input type="radio" id="reservation" name="purpose" value="reservation">
                     Reservation Question
                 </label>
 
                 <label>
-                    <input type="radio" name="purpose">
+                    <input type="radio" id="feedback" name="purpose" value="feedback">
                     Website Suggestion
                 </label>
             </fieldset>
 
             <label for="message">Message</label>
-            <textarea id="message"></textarea>
+            <textarea id="message" name="message"></textarea>
 
             <label>
-                <input type="checkbox">
+                <input type="checkbox" id="newsletter" name="newsletter">
                 Please subscribe me to the monthly newsletter
             </label>
 
