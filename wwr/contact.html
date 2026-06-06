@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About us | SK Gaming</title>
+    <title>Contact Us | SK Gaiming</title>
     <meta name="description"
       content="Here's where we're going to work week 03 according to the instructions this week. We're going to describe a gaming team.">
     <meta name="author" content="Mosiah Mares">
@@ -26,18 +26,83 @@
     </header>
 
     <main>
-        <h1>Contact Us</h1>
+        <section class="contact-info">
+            <h1>Contact Us</h1>
 
-        <h2>Send Us a Message</h2>
-        <p>SK Gaiming </p>
-        <p>Phone: +1 123-456-7890</p>
-        <p>Email: <a href="mailto">ajlhkskhaakfd</a></p>
-        <div class="map">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2072.0373706099213!2d6.887065442837534!3d50.94179963781844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47bf244d31af3f89%3A0x7e1ee31c20621f27!2sSK%20Gaming!5e1!3m2!1sen!2smx!4v1780777116949!5m2!1sen!2smx"
-              width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
+            <h2>Send Us a Message</h2>
+            <p>SK Gaiming </p>
+            <p>Phone: +1 123-456-7890</p>
+            <p>Email: <a href="mailto">ajlhkskhaakfd</a></p>
+        </section>
+
+        <section>
+            <div class="map">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2072.0373706099213!2d6.887065442837534!3d50.94179963781844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47bf244d31af3f89%3A0x7e1ee31c20621f27!2sSK%20Gaming!5e1!3m2!1sen!2smx!4v1780777116949!5m2!1sen!2smx"
+                  width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+
+        <form class="contact-form">
+            <label for="name">Name</label>
+            <input type="text" id="name">
+
+            <label for="email">Email</label>
+            <input type="email" id="email">
+
+            <fieldset>
+                <legend>Message Purpose</legend>
+
+                <label>
+                    <input type="radio" name="purpose">
+                    General Inquiry
+                </label>
+
+                <label>
+                    <input type="radio" name="purpose">
+                    Reservation Question
+                </label>
+
+                <label>
+                    <input type="radio" name="purpose">
+                    Website Suggestion
+                </label>
+            </fieldset>
+
+            <label for="message">Message</label>
+            <textarea id="message"></textarea>
+
+            <label>
+                <input type="checkbox">
+                Please subscribe me to the monthly newsletter
+            </label>
+
+            <button type="submit">Get in Touch!</button>
+        </form>
+
+        </section>
+
+        <section class="employees">
+            <h2>We Are Here to Serve You</h2>
+
+            <figure>
+                <img src="images/employee1.jpg" alt="Guide">
+                <figcaption>John Smith - Lead Guide</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/employee2.jpg" alt="Manager">
+                <figcaption>Sarah Jones - Manager</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/employee3.jpg" alt="Coordinator">
+                <figcaption>Mike Brown - Trip Coordinator</figcaption>
+            </figure>
+        </section>
+
+
     </main>
 
     <footer>
